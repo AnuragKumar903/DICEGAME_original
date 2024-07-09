@@ -5,8 +5,8 @@ window.onload = function(){
     var randomNumber2 = Math.random()*6 + 1;
     randomNumber2 = Math.round(randomNumber2);
 
-    var img1 = "./images/dice"+randomNumber1+".png";
-    var img2 = "./images/dice"+randomNumber2+".png";
+    var img1 = "./dice"+randomNumber1+".png";
+    var img2 = "./dice"+randomNumber2+".png";
 
     document.querySelector(".dice1").setAttribute("src", img1);
     document.querySelector(".dice2").setAttribute("src", img2);
